@@ -73,7 +73,7 @@ def parse_planet_parameters(line, planet):
     **planet** — объект планеты.
     """
 
-    spisok = line.split
+    spisok = line.split()
     planet.R = int(spisok[1])
     planet.color = spisok[2]
     planet.m = float(spisok[3])
