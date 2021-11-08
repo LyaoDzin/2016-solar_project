@@ -22,8 +22,8 @@ def calculate_force(body, space_objects):
             continue  # тело не действует гравитационной силой на само себя!
         r = ((body.x - obj.x)**2 + (body.y - obj.y)**2)**0.5
         f = (g*body.m*obj.m)/r**2
-        sin_angle = math.abs(body.y-obj.y)/math.sqrt((body.y - obj.y)**2 + (body.x-obj.x)**2)
-        cos_angle = (body.x-obj.x)/math.sqrt((body.y - obj.y)**2 + (body.x-obj.x)**2)
+        sin_angle = abs(body.y-obj.y)/sqrt((body.y - obj.y)**2 + (body.x-obj.x)**2)
+        cos_angle = (body.x-obj.x)/sqrt((body.y - obj.y)**2 + (body.x-obj.x)**2)
         body.Fx += f*sin_angle # FIXME: нужно вывести формулу... done??
         body.Fy += f*cos_angle # FIXME: нужно вывести формулу... done??
 
