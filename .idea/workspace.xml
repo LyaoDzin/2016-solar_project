@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27cb2fc7-722e-4b1f-8015-ce68858ba4ec" name="Changes" comment="что-то написано посмотри появилось ли оно">
-      <change beforePath="$PROJECT_DIR$/solar_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/solar_input.py" afterDir="false" />
+    <list default="true" id="27cb2fc7-722e-4b1f-8015-ce68858ba4ec" name="Changes" comment="ну вроде исправлено все в инпуте">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/solar_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636362668535</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ну вроде исправлено все">
+      <created>1636379074054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636379074054</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ну вроде исправлено все в инпуте">
+      <created>1636379108860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636379108860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +118,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="что-то написано посмотри появилось ли оно" />
-    <option name="LAST_COMMIT_MESSAGE" value="что-то написано посмотри появилось ли оно" />
+    <MESSAGE value="ну вроде исправлено все" />
+    <MESSAGE value="ну вроде исправлено все в инпуте" />
+    <option name="LAST_COMMIT_MESSAGE" value="ну вроде исправлено все в инпуте" />
   </component>
 </project>
