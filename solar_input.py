@@ -23,7 +23,7 @@ def read_space_objects_data_from_file(input_filename):
                 star = Star()
                 parse_star_parameters(line, star)
                 objects.append(star)
-            elif object_type == "planet":  # FIXME: do the same for planet
+            elif object_type == "planet":  # done for planet
                 planet = Planet()
                 parse_planet_parameters(line, planet)
                 objects.append(planet)
@@ -46,8 +46,15 @@ def parse_star_parameters(line, star):
     **line** — строка с описание звезды.
     **star** — объект звезды.
     """
+    spisok = line.split
+    star.R = int(spisok[1])
+    star.color = spisok[2]
+    star.m = float(spisok[3])
+    star.x = float(spisok[4])
+    star.y = float(spisok[5])
+    star.Vx = float(spisok[6])
+    star.Vy = float(spisok[7])
 
-    self.star = int(input())
     pass  # FIXME: not done yet
 
 def parse_planet_parameters(line, planet):
@@ -65,7 +72,16 @@ def parse_planet_parameters(line, planet):
     **line** — строка с описание планеты.
     **planet** — объект планеты.
     """
-    self.planet = int(input())
+
+    spisok = line.split
+    planet.R = int(spisok[1])
+    planet.color = spisok[2]
+    planet.m = float(spisok[3])
+    planet.x = float(spisok[4])
+    planet.y = float(spisok[5])
+    planet.Vx = float(spisok[6])
+    planet.Vy = float(spisok[7])
+
     pass  # FIXME: not done yet...
 
 
@@ -77,15 +93,17 @@ def write_space_objects_data_to_file(output_filename, space_objects):
 
     Параметры:
 
-    **output_filename** — имя входного файла
+    **output_filename** — имя выходного файла
     **space_objects** — список объектов планет и звёзд
     """
     with open(output_filename, 'w') as out_file:
         for obj in space_objects:
-            print(out_file, "%s %d %s %f" % ('1', 2, '3', 4.5))
+            print(obj.type, obj.R, obj.color, obj.m, obj.x, obj.y, obj.Vx, obj.Vy, file=out_file)
             # FIXME: should store real values
 
 # FIXME: хорошо бы ещё сделать функцию, сохранающую статистику в заданный файл...
+
+
 
 if __name__ == "__main__":
     print("This module is not for direct call!")
