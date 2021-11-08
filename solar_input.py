@@ -23,6 +23,10 @@ def read_space_objects_data_from_file(input_filename):
                 star = Star()
                 parse_star_parameters(line, star)
                 objects.append(star)
+            elif object_type == "planet":  # FIXME: do the same for planet
+                planet = Planet()
+                parse_planet_parameters(line, planet)
+                objects.append(planet)
             else:
                 print("Unknown space object")
 
@@ -37,13 +41,13 @@ def parse_star_parameters(line, star):
     Здесь (x, y) — координаты зведы, (Vx, Vy) — скорость.
     Пример строки:
     Star 10 red 1000 1 2 3 4
-
     Параметры:
 
     **line** — строка с описание звезды.
     **star** — объект звезды.
     """
 
+    self.star = int(input())
     pass  # FIXME: not done yet
 
 def parse_planet_parameters(line, planet):
@@ -61,6 +65,7 @@ def parse_planet_parameters(line, planet):
     **line** — строка с описание планеты.
     **planet** — объект планеты.
     """
+    self.planet = int(input())
     pass  # FIXME: not done yet...
 
 
