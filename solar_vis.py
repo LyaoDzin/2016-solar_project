@@ -12,7 +12,7 @@ header_font = "Arial-16"
 window_width = 800
 """Ширина окна"""
 
-window_height = 800
+window_height = 700
 """Высота окна"""
 
 scale_factor = None
@@ -81,7 +81,7 @@ def create_planet_image(space, planet):
     **space** — холст для рисования.
     **planet** — объект планеты.
     """
-    pass  # FIXME: сделать как у звезды
+
     x = scale_x(planet.x)
     y = scale_y(planet.y)
     r = planet.R

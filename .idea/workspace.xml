@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27cb2fc7-722e-4b1f-8015-ce68858ba4ec" name="Changes" comment="ну вроде исправлено все в инпуте">
+    <list default="true" id="27cb2fc7-722e-4b1f-8015-ce68858ba4ec" name="Changes" comment="последние изменения (не работает движение по оси ч)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solar_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/solar_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar_vis.py" beforeDir="false" afterPath="$PROJECT_DIR$/solar_vis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +103,42 @@
       <option name="project" value="LOCAL" />
       <updated>1636379108860</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="подобраны формулы вроде бы">
+      <created>1636383343978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636383343978</updated>
+    </task>
+    <task id="LOCAL-00005" summary="подобраны формулы вроде бы">
+      <created>1636383460227</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636383460227</updated>
+    </task>
+    <task id="LOCAL-00006" summary="исправлено немного">
+      <created>1636383863691</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636383863691</updated>
+    </task>
+    <task id="LOCAL-00007" summary="исправлено немного (1)">
+      <created>1636384021753</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636384021753</updated>
+    </task>
+    <task id="LOCAL-00008" summary="последние изменения (не работает движение по оси ч)">
+      <created>1636386482434</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636386482434</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,11 +151,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="что-то написано посмотри появилось ли оно" />
     <MESSAGE value="ну вроде исправлено все" />
     <MESSAGE value="ну вроде исправлено все в инпуте" />
-    <option name="LAST_COMMIT_MESSAGE" value="ну вроде исправлено все в инпуте" />
+    <MESSAGE value="подобраны формулы вроде бы" />
+    <MESSAGE value="исправлено немного" />
+    <MESSAGE value="исправлено немного (1)" />
+    <MESSAGE value="последние изменения (не работает движение по оси ч)" />
+    <option name="LAST_COMMIT_MESSAGE" value="последние изменения (не работает движение по оси ч)" />
   </component>
 </project>
